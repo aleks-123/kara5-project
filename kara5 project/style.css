@@ -1,0 +1,299 @@
+
+body{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1em;
+}
+
+.navbar-custom{
+	background-color: white;
+
+}
+
+nav .navbar-nav li a{
+  	color: black !important;
+}
+
+nav .navbar-nav li a:hover{
+	color: #ef463b !important;  
+}
+
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+.topWall{
+	background-image: url(assets/images/stage-company.jpg);
+	height: 600px; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	display: relative;
+}
+
+.insideDiv{
+	display: absolute;
+	top: 40%;
+	left: 4%;
+	background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,255,255,0.4));
+	padding: 30px;
+}
+
+.middleWall{
+	background-image: url(assets/images/img-1.jpg);
+	height: 640px; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.middleWall div{
+	position: absolute;
+	top: 30%;
+	background-color: rgba(255,255,255,0.3);
+	padding-top: 30px;
+	padding-bottom: 280px;
+}
+
+.two{
+	display: none;
+}
+
+.lowWall{
+	background-image: url(assets/images/img-2.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: right;
+	height: 700px;
+}
+
+.miniWall{
+	background-image: url(assets/images/img-2.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+  	height: 200px;
+  	position: absolute;
+  	top: 65%;
+  	left: 32%;
+  	box-shadow: inset 0 0 0 1000px rgba(255,0,0,0.4);
+  	color: white;
+
+}
+.miniWall2{
+	background-image: url(assets/images/img-3.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: right;
+  	height: 200px;
+  	position: absolute;
+  	top: 65%;
+  	left: 67%;
+  	box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.4);
+  	color: #ef463b;
+}
+
+.miniWall3{
+	background-image: url(assets/images/img-1.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: right;
+  	height: 200px;
+  	position: absolute;
+  	top: 65%;
+  	left: 6%;
+  	box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.4);
+  	color: #ef463b;
+}
+
+
+.miniPad h3{
+	padding-top: 82px;
+}
+
+.noStyleLi{
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.horizontLi{
+	display:inline-block;
+	padding-right: 10px;
+	color: white;
+}
+
+.horizontalLi a {
+    text-decoration: none;
+    color: white;
+}
+
+.black{
+	background-color: #333;
+	color:white;
+}
+
+
+.custom-btn{
+	background-color: #ef463b;
+	border-radius: 20px;
+	color:white;
+	padding: 10px;
+}
+
+.custom-btn:hover{
+	color: white;
+}
+
+hr{
+	 border-top:1px solid #ef463b;
+	 size: 5px;
+}
+
+.under{
+	display: inline-block;
+	border-bottom: 5px solid #ef463b;
+}
+
+.testimonial{
+	width: 200px;
+	height: auto;
+}
+.quotes{
+	float: right;
+	color: #ef463b;
+}
+
+.rightBorder{
+	border-right: 5px solid #ef463b;
+}
+
+.topBorder{
+	border-top: 5px solid #ef463b;
+	display: inline-block;
+}
+
+.topBorder1{
+	border-top: 2px solid #ef463b;
+	display: inline-block;
+}
+
+.red{
+	color:#ef463b;
+}
+
+.aRed{
+	text-decoration: none;
+	color: #ef463b;
+}
+
+.aRed:hover{
+	color: #ef463b;
+	text-decoration: none;
+}
+
+.silver{
+	background-color: #fafafa;
+}
+
+.silver li{
+	background-color: #fafafa;
+	padding: 10px;
+}
+
+.list-group-item:hover{
+	color: white;
+	background-color: #ef463b;
+	cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.mbCentar{
+		text-align: center;
+	}
+
+	.mbmargin{
+		margin-top: 10px;
+	}
+
+	.testimonial{
+		width: 120px;
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+	.lowWall{
+		background-image: url(assets/images/img-2.jpg);
+	  	background-position: right;
+		height: 200px;
+	}
+
+	.middleWall{
+		background-image: url(assets/images/img-1.jpg);
+		height: 300px; 
+	  	background-repeat: no-repeat;
+	  	background-size: cover;
+	  	position: relative;
+	}
+
+
+	.hideDivs{
+		display: none;
+	}
+	
+}
+
+@media only screen and (min-width: 600px) {
+	.testimonial{
+		width: 120px;
+		height: auto;
+		margin: 0 auto;
+	}
+	
+}
+
+
+@media only screen and (max-width: 768px) {
+	body{
+		font-size: 0.8rem;
+	}
+	.testimonial{
+		width: 45%;
+		height: auto;
+	}
+	.hideMini{
+		display: none;
+	}
+	.marginNav{
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body{
+		font-size: 0.8rem;
+	}
+	.testimonial{
+		width: 45%;
+		height: auto;
+	}
+	
+}
+
+@media only screen and (min-width: 992px) {
+	body{
+		font-size: 1rem;
+	}
+	.testimonial{
+		width: 45%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	body{
+		font-size: 1.1rem;
+	}		
+}
